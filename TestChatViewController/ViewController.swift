@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: DLMessagesViewController {
 	
@@ -15,6 +16,11 @@ class ViewController: DLMessagesViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
+		let ref = 
+		
+		
+		
+		
 		userID = "2"
 		delegate = self
 		

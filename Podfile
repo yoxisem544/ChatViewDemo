@@ -7,6 +7,7 @@ target 'TestChatViewController' do
 
   # Pods for TestChatViewController
   pod 'Firebase'
+  pod 'Firebase/Database'
 
   target 'TestChatViewControllerTests' do
     inherit! :search_paths
