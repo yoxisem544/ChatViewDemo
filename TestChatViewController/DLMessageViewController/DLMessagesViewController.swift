@@ -17,7 +17,7 @@ struct DLMessageControllerIdentifier {
 }
 
 protocol DLMessagesViewControllerDelegate {
-    func DLMessagesViewControllerDidClickedMessageButton(withReturnMessage message: String?)
+    func DLMessagesViewController(didClickedSendMessageButton message: DLChatMessage)
 	func DLMessagesViewControllerDidClickedCameraButton()
 	func DLMessagesViewControllerDidTapOnBubbleTableView()
 }
@@ -29,6 +29,7 @@ class DLMessagesViewController: UIViewController {
     var kbHeight: CGFloat! = 0.0
     var keyboardAndMessageGap: CGFloat = 8.0
 	var userID: String = ""
+	var userAvatarImage: UIImage?
     
     var delegate: DLMessagesViewControllerDelegate?
 	
@@ -252,7 +253,8 @@ extension DLMessagesViewController : TextInputViewDelegate {
     }
 	
     func textInputView(didClickedSendMessageButton message: String?) {
-        delegate?.DLMessagesViewControllerDidClickedMessageButton(withReturnMessage: message)
+		let m = DLChatMessage(senderID: userID, senderAvatarImage: userAvatarImage, content: message)
+		delegate?.DLMessagesViewController(didClickedSendMessageButton: m)
     }
 	
 	func textInputViewDidClickCameraButton() {

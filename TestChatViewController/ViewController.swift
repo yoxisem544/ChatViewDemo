@@ -16,6 +16,8 @@ class ViewController: DLMessagesViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
 		userID = "2"
+		delegate = self
+		
 		let a = DLChatMessage(senderID: "1", senderAvatarImage: nil, content: "yoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyo")
 		let b = DLChatMessage(senderID: "2", senderAvatarImage: nil, content: "hey", type: .Text)
 		messages.appendContentsOf([a,a,a,a,a,a,a,a,a,a])
@@ -38,3 +40,21 @@ class ViewController: DLMessagesViewController {
 	
 }
 
+extension ViewController : DLMessagesViewControllerDelegate {
+	
+	func DLMessagesViewControllerDidClickedCameraButton() {
+		print(#function)
+	}
+	
+	func DLMessagesViewControllerDidTapOnBubbleTableView() {
+		print(#function)
+	}
+	
+	func DLMessagesViewController(didClickedSendMessageButton message: DLChatMessage) {
+		messages.append(message)
+		messageRecieved()
+	}
+	
+	
+	
+}
