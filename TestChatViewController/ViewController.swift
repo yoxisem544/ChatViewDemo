@@ -8,18 +8,33 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: DLMessagesViewController {
+	
+	var messages: [DLChatMessage] = []
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
+		userID = "2"
+		let a = DLChatMessage(senderID: "1", senderAvatarImage: nil, content: "yoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyo")
+		let b = DLChatMessage(senderID: "2", senderAvatarImage: nil, content: "hey", type: .Text)
+		messages.appendContentsOf([a,a,a,a,a,a,a,a,a,a])
+		messages.appendContentsOf([b,b,b])
 	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
+	
+	override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+		return 1
 	}
-
-
+	
+	override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+		return messages.count
+	}
+	
+	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+		let message = messages[indexPath.row]
+		let cell = getMessageCell(tableView, indexPath: indexPath, message: message)
+		return cell
+	}
+	
 }
 

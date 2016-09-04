@@ -14,6 +14,21 @@
 		63A7A5A21D7BC68A00AB51F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A7A5A01D7BC68A00AB51F2 /* LaunchScreen.storyboard */; };
 		63A7A5AD1D7BC68A00AB51F2 /* TestChatViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7A5AC1D7BC68A00AB51F2 /* TestChatViewControllerTests.swift */; };
 		63A7A5B81D7BC68A00AB51F2 /* TestChatViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7A5B71D7BC68A00AB51F2 /* TestChatViewControllerUITests.swift */; };
+		63A7A5D51D7BC6CB00AB51F2 /* ATrickyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7A5C61D7BC6CB00AB51F2 /* ATrickyView.swift */; };
+		63A7A5D61D7BC6CB00AB51F2 /* DLIncomingMessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7A5C71D7BC6CB00AB51F2 /* DLIncomingMessageBubble.swift */; };
+		63A7A5D71D7BC6CB00AB51F2 /* DLIncomingMessageBubble.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A7A5C81D7BC6CB00AB51F2 /* DLIncomingMessageBubble.xib */; };
+		63A7A5D81D7BC6CB00AB51F2 /* DLIncomingMessageDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7A5C91D7BC6CB00AB51F2 /* DLIncomingMessageDelegate.swift */; };
+		63A7A5D91D7BC6CB00AB51F2 /* DLIncomingPhotoBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7A5CA1D7BC6CB00AB51F2 /* DLIncomingPhotoBubble.swift */; };
+		63A7A5DA1D7BC6CB00AB51F2 /* DLIncomingPhotoBubble.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A7A5CB1D7BC6CB00AB51F2 /* DLIncomingPhotoBubble.xib */; };
+		63A7A5DC1D7BC6CB00AB51F2 /* DLMessageLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7A5CD1D7BC6CB00AB51F2 /* DLMessageLabel.swift */; };
+		63A7A5DD1D7BC6CB00AB51F2 /* DLMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7A5CE1D7BC6CB00AB51F2 /* DLMessagesViewController.swift */; };
+		63A7A5DE1D7BC6CB00AB51F2 /* DLOutgoingMessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7A5CF1D7BC6CB00AB51F2 /* DLOutgoingMessageBubble.swift */; };
+		63A7A5DF1D7BC6CB00AB51F2 /* DLOutgoingMessageBubble.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A7A5D01D7BC6CB00AB51F2 /* DLOutgoingMessageBubble.xib */; };
+		63A7A5E01D7BC6CB00AB51F2 /* DLOutgoingPhotoBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7A5D11D7BC6CB00AB51F2 /* DLOutgoingPhotoBubble.swift */; };
+		63A7A5E11D7BC6CB00AB51F2 /* DLOutgoingPhotoBubble.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A7A5D21D7BC6CB00AB51F2 /* DLOutgoingPhotoBubble.xib */; };
+		63A7A5E21D7BC6CB00AB51F2 /* DLPhotoMessageDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7A5D31D7BC6CB00AB51F2 /* DLPhotoMessageDelegate.swift */; };
+		63A7A5E31D7BC6CB00AB51F2 /* TextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7A5D41D7BC6CB00AB51F2 /* TextInputView.swift */; };
+		63A7A5E51D7BC70B00AB51F2 /* DLChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7A5E41D7BC70B00AB51F2 /* DLChatMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,21 @@
 		63A7A5B31D7BC68A00AB51F2 /* TestChatViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestChatViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A7A5B71D7BC68A00AB51F2 /* TestChatViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestChatViewControllerUITests.swift; sourceTree = "<group>"; };
 		63A7A5B91D7BC68A00AB51F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A7A5C61D7BC6CB00AB51F2 /* ATrickyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATrickyView.swift; sourceTree = "<group>"; };
+		63A7A5C71D7BC6CB00AB51F2 /* DLIncomingMessageBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLIncomingMessageBubble.swift; sourceTree = "<group>"; };
+		63A7A5C81D7BC6CB00AB51F2 /* DLIncomingMessageBubble.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLIncomingMessageBubble.xib; sourceTree = "<group>"; };
+		63A7A5C91D7BC6CB00AB51F2 /* DLIncomingMessageDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLIncomingMessageDelegate.swift; sourceTree = "<group>"; };
+		63A7A5CA1D7BC6CB00AB51F2 /* DLIncomingPhotoBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLIncomingPhotoBubble.swift; sourceTree = "<group>"; };
+		63A7A5CB1D7BC6CB00AB51F2 /* DLIncomingPhotoBubble.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLIncomingPhotoBubble.xib; sourceTree = "<group>"; };
+		63A7A5CD1D7BC6CB00AB51F2 /* DLMessageLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLMessageLabel.swift; sourceTree = "<group>"; };
+		63A7A5CE1D7BC6CB00AB51F2 /* DLMessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLMessagesViewController.swift; sourceTree = "<group>"; };
+		63A7A5CF1D7BC6CB00AB51F2 /* DLOutgoingMessageBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLOutgoingMessageBubble.swift; sourceTree = "<group>"; };
+		63A7A5D01D7BC6CB00AB51F2 /* DLOutgoingMessageBubble.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLOutgoingMessageBubble.xib; sourceTree = "<group>"; };
+		63A7A5D11D7BC6CB00AB51F2 /* DLOutgoingPhotoBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLOutgoingPhotoBubble.swift; sourceTree = "<group>"; };
+		63A7A5D21D7BC6CB00AB51F2 /* DLOutgoingPhotoBubble.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLOutgoingPhotoBubble.xib; sourceTree = "<group>"; };
+		63A7A5D31D7BC6CB00AB51F2 /* DLPhotoMessageDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLPhotoMessageDelegate.swift; sourceTree = "<group>"; };
+		63A7A5D41D7BC6CB00AB51F2 /* TextInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputView.swift; sourceTree = "<group>"; };
+		63A7A5E41D7BC70B00AB51F2 /* DLChatMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLChatMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +131,7 @@
 				63A7A5991D7BC68A00AB51F2 /* ViewController.swift */,
 				63A7A59B1D7BC68A00AB51F2 /* Main.storyboard */,
 				63A7A59E1D7BC68A00AB51F2 /* Assets.xcassets */,
+				63A7A5C51D7BC6CB00AB51F2 /* DLMessageViewController */,
 				63A7A5A01D7BC68A00AB51F2 /* LaunchScreen.storyboard */,
 				63A7A5A31D7BC68A00AB51F2 /* Info.plist */,
 			);
@@ -123,6 +154,36 @@
 				63A7A5B91D7BC68A00AB51F2 /* Info.plist */,
 			);
 			path = TestChatViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		63A7A5C51D7BC6CB00AB51F2 /* DLMessageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63A7A5C61D7BC6CB00AB51F2 /* ATrickyView.swift */,
+				63A7A5E61D7BCD8E00AB51F2 /* Cells */,
+				63A7A5C91D7BC6CB00AB51F2 /* DLIncomingMessageDelegate.swift */,
+				63A7A5E41D7BC70B00AB51F2 /* DLChatMessage.swift */,
+				63A7A5CD1D7BC6CB00AB51F2 /* DLMessageLabel.swift */,
+				63A7A5CE1D7BC6CB00AB51F2 /* DLMessagesViewController.swift */,
+				63A7A5D31D7BC6CB00AB51F2 /* DLPhotoMessageDelegate.swift */,
+				63A7A5D41D7BC6CB00AB51F2 /* TextInputView.swift */,
+			);
+			path = DLMessageViewController;
+			sourceTree = "<group>";
+		};
+		63A7A5E61D7BCD8E00AB51F2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				63A7A5C71D7BC6CB00AB51F2 /* DLIncomingMessageBubble.swift */,
+				63A7A5C81D7BC6CB00AB51F2 /* DLIncomingMessageBubble.xib */,
+				63A7A5CA1D7BC6CB00AB51F2 /* DLIncomingPhotoBubble.swift */,
+				63A7A5CB1D7BC6CB00AB51F2 /* DLIncomingPhotoBubble.xib */,
+				63A7A5CF1D7BC6CB00AB51F2 /* DLOutgoingMessageBubble.swift */,
+				63A7A5D01D7BC6CB00AB51F2 /* DLOutgoingMessageBubble.xib */,
+				63A7A5D11D7BC6CB00AB51F2 /* DLOutgoingPhotoBubble.swift */,
+				63A7A5D21D7BC6CB00AB51F2 /* DLOutgoingPhotoBubble.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +291,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A7A5A21D7BC68A00AB51F2 /* LaunchScreen.storyboard in Resources */,
+				63A7A5DF1D7BC6CB00AB51F2 /* DLOutgoingMessageBubble.xib in Resources */,
+				63A7A5D71D7BC6CB00AB51F2 /* DLIncomingMessageBubble.xib in Resources */,
 				63A7A59F1D7BC68A00AB51F2 /* Assets.xcassets in Resources */,
+				63A7A5DA1D7BC6CB00AB51F2 /* DLIncomingPhotoBubble.xib in Resources */,
+				63A7A5E11D7BC6CB00AB51F2 /* DLOutgoingPhotoBubble.xib in Resources */,
 				63A7A59D1D7BC68A00AB51F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +321,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A7A5D91D7BC6CB00AB51F2 /* DLIncomingPhotoBubble.swift in Sources */,
+				63A7A5E21D7BC6CB00AB51F2 /* DLPhotoMessageDelegate.swift in Sources */,
+				63A7A5DD1D7BC6CB00AB51F2 /* DLMessagesViewController.swift in Sources */,
+				63A7A5E51D7BC70B00AB51F2 /* DLChatMessage.swift in Sources */,
 				63A7A59A1D7BC68A00AB51F2 /* ViewController.swift in Sources */,
+				63A7A5E01D7BC6CB00AB51F2 /* DLOutgoingPhotoBubble.swift in Sources */,
+				63A7A5D61D7BC6CB00AB51F2 /* DLIncomingMessageBubble.swift in Sources */,
+				63A7A5DE1D7BC6CB00AB51F2 /* DLOutgoingMessageBubble.swift in Sources */,
+				63A7A5DC1D7BC6CB00AB51F2 /* DLMessageLabel.swift in Sources */,
+				63A7A5E31D7BC6CB00AB51F2 /* TextInputView.swift in Sources */,
+				63A7A5D51D7BC6CB00AB51F2 /* ATrickyView.swift in Sources */,
+				63A7A5D81D7BC6CB00AB51F2 /* DLIncomingMessageDelegate.swift in Sources */,
 				63A7A5981D7BC68A00AB51F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
